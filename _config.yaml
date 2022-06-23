@@ -1,0 +1,9 @@
+theme: jekyll-theme-slate
+markdown: GFM
+domain: Breitband-Inc.github.io
+url: https://Breitband-Inc.github.io/
+baseurl: /Breitband-Inc.github.io/
+title: Breitband Group
+description: Currently under Development
+plugins:
+  - jekyll-relative-links
