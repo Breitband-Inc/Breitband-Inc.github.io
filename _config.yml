@@ -5,8 +5,7 @@ title: Breitband Group
 #description: IT and so much more
 permalink: pretty
 defaults:
--
-   scope:
+-  scope:
      path: ""
      type: "pages"
    values:
