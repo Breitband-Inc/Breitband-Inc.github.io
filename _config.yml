@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
 domain: Breitband-Inc.github.io
 url: https://Breitband-Inc.github.io/
-#baseurl: /Breitband-Inc.github.io/
 title: Breitband Group
-#description: Currently under Development
+description: IT and so much more
+permalink: pretty
