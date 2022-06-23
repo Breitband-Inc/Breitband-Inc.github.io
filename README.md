@@ -1,3 +1,8 @@
+# Important Notes
+### The website is built and published from the 'Production' branch, commits to said branch are therefore required to be approved by members of the Managment.
+---
+
+
 ## Welcome to Breitband Group
 ### This Website is currently being tested and developed.
 ---
