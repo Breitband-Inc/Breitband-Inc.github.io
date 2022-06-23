@@ -4,6 +4,13 @@ url: https://Breitband-Inc.github.io/
 title: Breitband Group
 #description: IT and so much more
 permalink: pretty
-relative_links:
+defaults:
+-
+   scope:
+     path: ""
+     type: "pages"
+   values:
+     permalink: "/:path/:basename/"
+     relative_links:
   enabled:     true
   collections: true
