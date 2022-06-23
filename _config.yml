@@ -4,3 +4,6 @@ url: https://Breitband-Inc.github.io/
 title: Breitband Group
 description: IT and so much more
 permalink: pretty
+relative_links:
+  enabled:     true
+  collections: true
