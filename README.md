@@ -1,5 +1,5 @@
 # Important Notes
-The website is built and published from the 'Production' branch, commits to said branch are therefore required to be approved by members of the Managment.
+### The website is built and published from the 'Production' branch, commits to said branch are therefore required to be approved by members of the Managment.
 ---
 
 
