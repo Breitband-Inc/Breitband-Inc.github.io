@@ -1,3 +1,3 @@
 # OWO
 
-wow, u found my little secwet hiding spot ówò
+nou, u found my little secwet hiding spot ówò
