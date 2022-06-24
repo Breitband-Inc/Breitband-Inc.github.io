@@ -5,8 +5,8 @@ title: BreitbaND Group
 #description: IT and so much more
 permalink: pretty
 lang: 
-  - de_DE
-  - en_US
+  - de-DE
+  - en-US
 relative_links:
   enabled:     true
   collections: true
