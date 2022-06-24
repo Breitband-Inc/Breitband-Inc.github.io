@@ -2,7 +2,7 @@
 description: IT and so much more!
 ---
 
-## Welcome to Breitband Group
+## Welcome to BreitbaND Group
 ### This Website is currently being tested and developed.
 ---
 #### Have a [Cookie](lorem_ipsum.md) while we're still working on it!
