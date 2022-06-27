@@ -9,5 +9,5 @@ lang: en-US
 relative_links:
   enabled:     true
   collections: true
-exclude:
-  - README.md
+#exclude:
+#  - README.md
