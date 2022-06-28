@@ -1,3 +1,7 @@
+---
+permalink: /lol
+---
+
 # Voluit quem sed Anaxaretes ossa
 
 ## Diu vidit committere visis vertitur indefessus petit
