@@ -11,3 +11,5 @@ relative_links:
   collections: true
 #exclude:
 #  - README.md
+
+theme: jekyll-theme-hacker
