@@ -1,5 +1,5 @@
 ---
-permalink: /lol
+permalink: /lorem
 ---
 
 # Voluit quem sed Anaxaretes ossa
