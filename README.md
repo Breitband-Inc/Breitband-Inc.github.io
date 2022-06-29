@@ -1,7 +1,6 @@
 ---
 permalink: /more
 description: Heres some more text!
-title: READUS
 ---
 
 [![pages-build-deployment](https://github.com/Breitband-Inc/Breitband-Inc.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=Production)](https://github.com/Breitband-Inc/Breitband-Inc.github.io/actions/workflows/pages/pages-build-deployment)
