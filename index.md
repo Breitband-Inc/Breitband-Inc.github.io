@@ -1,7 +1,3 @@
----
-title: Home
-#description: IT and so much more!
----
 
 # Welcome to BreitbaND Group
 ## This Website is currently being tested and developed.
