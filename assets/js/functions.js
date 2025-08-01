@@ -273,6 +273,19 @@ $( document ).ready(function() {
 
   }
 
+  //Header Logo
+  $('.header--logo').click(function(e) {
+    e.preventDefault(); 
+  
+    var curActive = $('.side-nav').find('.is-active'),
+        curPos = $('.side-nav').children().index(curActive),
+        nextPos = 0, 
+        lastItem = $('.side-nav').children().length - 1;
+  
+    updateNavs(nextPos);
+    updateContent(curPos, nextPos, lastItem);
+  });
+
   outerNav();
   workSlider();
   transitionLabels();
