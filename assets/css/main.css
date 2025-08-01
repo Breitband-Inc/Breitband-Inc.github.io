@@ -1914,3 +1914,47 @@ body {
 .backbutton:hover {
     background-color: #0f33ff;
 }
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #0c0c0c;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    border-color: #0f33ff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-decoration: none;
+    z-index: 999;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.7;
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
+    background-color: #0f33ff;
+    color: #ea64bd;
+}
+
+@media only screen and (min-width: 1080px) {
+    .desktop-hide {
+        display: none !important;
+      }
+}
+
+@media only screen and (max-width: 1080px) {
+.scroll-to-top {
+        width: 5rem;
+        height: 5rem;
+        font-size: 3rem;
+        align-content: center;
+    }
+
+.mobile-hide {
+        display: none !important;
+      }
+}
