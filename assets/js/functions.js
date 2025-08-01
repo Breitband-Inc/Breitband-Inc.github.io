@@ -273,14 +273,9 @@ $( document ).ready(function() {
 
   }
 
-  //Header Logo
+  // Header Logo Link
   $('.header--logo').click(function(e) {
     e.preventDefault();
-
-    var curPosH = $('.side-nav').children().index($('.side-nav .is-active'));
-    if (curPosH !== 0) {
-      updateHelper(-1);
-    }
   
     var $nav = $('.side-nav'),
         curActive = $nav.find('.is-active'),
@@ -288,7 +283,17 @@ $( document ).ready(function() {
         nextPos = 0,
         lastItem = $nav.children().length - 1;
   
-    // Falls das Menü offen ist, schließe es:
+    if (curPos !== nextPos) {
+      if (curPos < nextPos) {
+        $('.main-content').children().eq(curPos).children().addClass('section--next');
+      } else {
+        $('.main-content').children().eq(curPos).children().addClass('section--prev');
+      }
+  
+      updateNavs(nextPos);
+      updateContent(curPos, nextPos, lastItem);
+    }
+  
     if ($('.outer-nav').hasClass('is-vis')) {
       $('.perspective').removeClass('effect-rotate-left--animate');
       setTimeout(function() {
@@ -296,7 +301,8 @@ $( document ).ready(function() {
       }, 400);
       $('.outer-nav, .outer-nav li, .outer-nav--return').removeClass('is-vis');
     }
-  });
+  }
+
 
   outerNav();
   workSlider();
