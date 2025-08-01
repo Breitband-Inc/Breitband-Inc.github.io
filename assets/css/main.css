@@ -1922,11 +1922,12 @@ body {
     width: 40px;
     height: 40px;
     background-color: #0c0c0c;
+    color: #0f33ff;
     font-size: 1.5rem;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    border-color: #0f33ff;
+    border: 2px solid #0f33ff;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     text-decoration: none;
     z-index: 999;
@@ -1937,7 +1938,7 @@ body {
 .scroll-to-top:hover {
     opacity: 1;
     background-color: #0f33ff;
-    color: #ea64bd;
+    color: #0c0c0c;
 }
 
 @media only screen and (min-width: 1080px) {
