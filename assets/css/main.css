@@ -1241,12 +1241,13 @@ body {
     display: flex;
     max-width: 600px;
     -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
+    -webkit-justify-content: flex-start;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 0;
     padding: 0;
-    list-style: none
+    list-style: none;
+    gap: 30px;
 }
 
 .about--options>a {
