@@ -274,7 +274,7 @@ $( document ).ready(function() {
   }
 
   // Header Logo Link
-  $('.header--logo').click(function(e) {
+  /*$('.header--logo').click(function(e) {
     e.preventDefault();
   
     var $nav = $('.side-nav'),
@@ -301,7 +301,7 @@ $( document ).ready(function() {
       }, 400);
       $('.outer-nav, .outer-nav li, .outer-nav--return').removeClass('is-vis');
     }
-  }
+  }*/
 
 
   outerNav();
