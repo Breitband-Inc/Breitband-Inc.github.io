@@ -275,15 +275,27 @@ $( document ).ready(function() {
 
   //Header Logo
   $('.header--logo').click(function(e) {
-    e.preventDefault(); 
+    e.preventDefault();
   
-    var curActive = $('.side-nav').find('.is-active'),
-        curPos = $('.side-nav').children().index(curActive),
-        nextPos = 0, 
-        lastItem = $('.side-nav').children().length - 1;
+    var $nav = $('.side-nav'),
+        curActive = $nav.find('.is-active'),
+        curPos = $nav.children().index(curActive),
+        nextPos = 0,
+        lastItem = $nav.children().length - 1;
   
-    updateNavs(nextPos);
-    updateContent(curPos, nextPos, lastItem);
+    if (curPos !== nextPos) {
+      updateNavs(nextPos);
+      updateContent(curPos, nextPos, lastItem);
+    }
+  
+    // Falls das Menü offen ist, schließe es:
+    if ($('.outer-nav').hasClass('is-vis')) {
+      $('.perspective').removeClass('effect-rotate-left--animate');
+      setTimeout(function() {
+        $('.perspective').removeClass('perspective--modalview');
+      }, 400);
+      $('.outer-nav, .outer-nav li, .outer-nav--return').removeClass('is-vis');
+    }
   });
 
   outerNav();
