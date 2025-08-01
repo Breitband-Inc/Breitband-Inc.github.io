@@ -276,17 +276,17 @@ $( document ).ready(function() {
   //Header Logo
   $('.header--logo').click(function(e) {
     e.preventDefault();
+
+    var curPosH = $('.side-nav').children().index($('.side-nav .is-active'));
+    if (curPosH !== 0) {
+      updateHelper(-1);
+    }
   
     var $nav = $('.side-nav'),
         curActive = $nav.find('.is-active'),
         curPos = $nav.children().index(curActive),
         nextPos = 0,
         lastItem = $nav.children().length - 1;
-  
-    if (curPos !== nextPos) {
-      updateNavs(nextPos);
-      updateContent(curPos, nextPos, lastItem);
-    }
   
     // Falls das Menü offen ist, schließe es:
     if ($('.outer-nav').hasClass('is-vis')) {
