@@ -1946,22 +1946,24 @@ body {
 @media only screen and (min-width: 1080px) {
     .desktop-hide {
         display: none !important;
-      }
+    }
+    
 }
 
 @media only screen and (max-width: 1080px) {
-.scroll-to-top {
+    .scroll-to-top {
         width: 5rem;
         height: 5rem;
         font-size: 3rem;
         align-content: center;
     }
-
-.mobile-hide {
+    
+    .mobile-hide {
         display: none !important;
-      }
-}
-
-.contact--lockup .modal {
-    width: 75%;
+    }
+    
+    .contact--lockup .modal {
+        width: 75%;
+    }
+    
 }
